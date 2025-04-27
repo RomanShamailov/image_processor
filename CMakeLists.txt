@@ -1,0 +1,16 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+    filters/blur/blur.cpp
+    filters/crop/crop.cpp
+    filters/edge/edge.cpp
+    filters/grayscale/grayscale.cpp
+    image/image.cpp
+    filters/matrix_filter/matrix_filter.cpp
+    filters/negative/negative.cpp
+    parser.cpp
+    image/pixel.cpp
+    filters/pixelate/pixelate.cpp
+    filters/sharpening/sharpening.cpp
+    filters/formula_filter/formula_filter.cpp
+)
